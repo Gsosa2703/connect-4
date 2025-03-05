@@ -1,7 +1,9 @@
 Deployed: https://connect-4-flame.vercel.app/
+
+
 \# Connect Four Game (React)
 
-A simple **Connect Four** game built with **React** where two players (Player 1 and Player 2) take turns dropping tokens (red or yellow) into a 7×6 grid, aiming to form a horizontal, vertical, or diagonal line of four tokens.
+A simple **Connect Four** game built with **React** where two players (Player 1 and Player 2) take turns dropping tokens (pink or yellow) into a 7×6 grid, aiming to form a horizontal, vertical, or diagonal line of four tokens.
 
 ![image](https://github.com/user-attachments/assets/c4198736-ba26-43ed-9375-0ff6ade6656c)
 
