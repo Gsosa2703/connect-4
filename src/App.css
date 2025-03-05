@@ -1,0 +1,82 @@
+body{
+  background-color: blueviolet;
+  position: relative;
+  font-family: monospace;
+  font-size: 1.4em;
+}
+#root{
+  width: 100%;
+}
+.title-game{
+  text-align: center;
+  font-size: 2rem;
+  border: 3px solid black;
+  color: white;
+}
+.games{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.token{
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+    border: 2px solid black;
+
+    background: radial-gradient(circle at 10% 10%, 
+    rgba(255, 255, 255, 0.7) 1%,  
+    var(--token-color) 60%,       
+    rgba(0, 0, 0, 0.3) 100%        
+  );
+
+  box-shadow: 
+    inset -2px -2px 4px rgba(0, 0, 0, 0.3),  /* Subtle inset shadow */
+    inset 3px 3px 4px rgba(255, 255, 255, 0.15), /* Soft lighting effect */
+    0 3px 6px rgba(0, 0, 0, 0.2); /* Outer shadow */
+}
+
+.board{
+  background: #f5f4f4;
+  border: 4px solid black;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.rows{
+  display: flex;
+  gap: 15px;
+}
+
+.winner-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%); /* Centers it exactly */
+  
+  background: rgba(112, 37, 255, 0.6) ;
+  padding: 2rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  
+  color: white;
+  border-radius: 20px;
+  border: 4px solid black;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Adds depth */
+}
+
+
+.resetGame{
+  border: 2px solid black;
+}
+
+.header-board{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
